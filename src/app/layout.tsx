@@ -1,6 +1,6 @@
 import './globals.css'; 
 import { ReactNode } from 'react';
-
+import React from 'react';
 export const metadata = {
   title: 'Fittech',
   description: 'Inscreva-se na nossa landing page e receba novidades exclusivas.',

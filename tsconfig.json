@@ -1,27 +1,48 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "ES2020", // Atualizado para uma versão mais moderna do ES
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "types": [
+      "jest",
+      "@testing-library/jest-dom"
+    ],
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
+    "module": "commonjs", // Mantido como CommonJS
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx", // Alterado para "react-jsx" para suportar a nova sintaxe JSX
     "incremental": true,
+    "moduleResolution": "node",
+    "baseUrl": ".", // Adicionado para facilitar importações absolutas
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
     "plugins": [
       {
         "name": "next"
       }
-    ],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "jest.setup.ts" // Certifique-se de incluir o setup do Jest
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts", // Opcional: Exclui arquivos de teste durante a compilação
+    "**/*.test.tsx" // Opcional: Exclui arquivos de teste durante a compilação
+  ]
 }

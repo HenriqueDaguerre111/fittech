@@ -111,7 +111,7 @@ function Home() {
 
   return (
     <div>
-      <canvas id="interactive-bg"></canvas>
+      <canvas id="interactive-bg" role="presentation"></canvas>
       <Header />   
       <main className="container mx-auto p-6">
         <section className="text-center py-12">
