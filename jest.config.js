@@ -1,14 +1,12 @@
 module.exports = {
   preset: 'ts-jest',
-  testEnvironment: 'jest-environment-jsdom',
+  testEnvironment: 'jsdom',
   transform: {
-    '^.+\\.(ts|tsx)$': 'ts-jest',
-    '^.+\\.(js|jsx)$': 'babel-jest',
+    '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
   },
   moduleNameMapper: {
-    '\\.(css|scss|sass)$': 'identity-obj-proxy', // Para lidar com arquivos CSS
+    '\\.(css|scss|sass)$': 'identity-obj-proxy',
   },
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'], // Arquivo de configuração global para Jest
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'], // Arquivo de configuração global
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
-  moduleDirectories: ['node_modules', '<rootDir>/'],
 };
