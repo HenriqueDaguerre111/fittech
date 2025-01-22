@@ -1,0 +1,88 @@
+.form {
+    background: linear-gradient(145deg, #1a1a2e, #16213e); 
+    border-radius: 10px; 
+    padding: 2rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); 
+    color: #f0f0f0; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8); 
+  }
+  
+  /* Campo de entrada */
+  .field {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label */
+  .label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #e94560; 
+    text-shadow: 0 1px 4px rgba(233, 69, 96, 0.8); 
+  }
+  
+  /* Input */
+  .input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #0f172a; 
+    color: #f0f0f0; 
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #e94560; 
+    box-shadow: 0 0 8px rgba(233, 69, 96, 0.5); 
+  }
+  
+  /* Botão de envio */
+  .button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e94560; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #d03450; 
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 20px rgba(233, 69, 96, 0.8);
+  }
+  
+  .button:active {
+    transform: translateY(0); 
+    box-shadow: 0 4px 15px rgba(233, 69, 96, 0.6); 
+  }
+  
+  /* Mensagem de sucesso */
+  .success {
+    margin-top: 1rem;
+    color: #22c55e; 
+    font-weight: bold;
+    text-shadow: 0 1px 4px rgba(34, 197, 94, 0.8); 
+  }
+  
+  /* Mensagem de erro */
+  .error {
+    margin-top: 1rem;
+    color: #ef4444; 
+    font-weight: bold;
+    text-shadow: 0 1px 4px rgba(239, 68, 68, 0.8); 
+  }
+  
