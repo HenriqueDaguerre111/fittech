@@ -18,7 +18,7 @@
     "module": "commonjs", // Mantido como CommonJS
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx", // Alterado para "react-jsx" para suportar a nova sintaxe JSX
+    "jsx": "preserve", // Alterado para "react-jsx" para suportar a nova sintaxe JSX
     "incremental": true,
     "moduleResolution": "node",
     "baseUrl": ".", // Adicionado para facilitar importações absolutas

@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# FitTech Tracker - Projeto Next.js
 
-First, run the development server:
+## Sobre o Projeto:
+O FitTech Tracker é uma aplicação desenvolvida em Next.js para promover um dispositivo fitness inovador. A aplicação inclui:
+
+* Um formulário de inscrição para captar usuários interessados no produto.
+* Um header com navegação para se inscrever.
+* Um background interativo com partículas dinâmicas.
+* Um footer estilizado para informações de copyright.
+
+### O projeto foi estruturado seguindo boas práticas de desenvolvimento com React e Next.js, incluindo:
+
+* Separação em componentes reutilizáveis.
+* Uso de módulos CSS para estilização.
+* Uma API de inscrição simulada no endpoint /api/submit.
+
+
+### Objetivos da Aplicação:
+
+Promover o FitTech Tracker como um dispositivo fitness de última geração.
+Oferecer uma interface intuitiva e atraente para captar leads (usuários interessados no produto).
+Apresentar informações e diferenciais do produto de forma clara e objetiva.
+Rodando o Projeto Localmente:
+Siga os passos abaixo para rodar o projeto em sua máquina:
+
+## Pré-requisitos:
+
+Node.js instalado (versão 16+ recomendada)
+Gerenciador de pacotes npm ou yarn
+Passo a Passo:
+
+### Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/fittech-tracker.git
+cd fittech-tracker
+```
+
+### Instale as dependências:
+```bash
+npm install
+```
+
+### Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Acesse a aplicação no navegador:
+Abra o navegador e vá para http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Testes:
+Os testes estão configurados com Jest e React Testing Library. Para executar os testes, use o comando:
+```bash
+npm test
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+# Considerações finais:
+A aplicação foi projetada para ser extensível e responsiva. Sinta-se à vontade para contribuir ou personalizar conforme necessário.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
