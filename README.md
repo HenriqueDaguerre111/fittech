@@ -32,7 +32,7 @@ Passo a Passo:
 
 ### Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/fittech-tracker.git
+git clone https://github.com/HenriqueDaguerre111/fittech.git
 cd fittech-tracker
 ```
 
@@ -49,6 +49,9 @@ npm run dev
 
 ### Acesse a aplicação no navegador:
 Abra o navegador e vá para http://localhost:3000
+
+### Vercel
+https://fittech-pearl.vercel.app/
 
 ## Testes:
 Os testes estão configurados com Jest e React Testing Library. Para executar os testes, use o comando:
