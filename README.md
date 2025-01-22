@@ -32,7 +32,7 @@ Passo a Passo:
 
 ### Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/fittech-tracker.git
+git clone github.com/HenriqueDaguerre111/fittech.git
 cd fittech-tracker
 ```
 
